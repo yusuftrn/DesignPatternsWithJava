@@ -16,8 +16,9 @@ public class Run {
      *  The concrete factory is usually chosen depending on configuration or environment options
      */
     private static void configure(){
-        if (System.getProperty("os.name").equals("Windows 10")) {
-            dialog = new WindowsDialog();
+        String osName = System.getProperty("os.name").toLowerCase();
+        if (osName.contains("mac")) {
+            dialog = new MacDialog();
         }
         else{
             dialog = new HtmlDialog();

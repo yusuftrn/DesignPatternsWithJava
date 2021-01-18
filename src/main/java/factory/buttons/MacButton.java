@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class WindowsButton implements Button{
+public class MacButton implements Button{
     JPanel panel = new JPanel();
     JFrame frame = new JFrame();
     JButton button;
