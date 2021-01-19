@@ -6,6 +6,8 @@ import builderpattern.components.GPSNavigator;
 import builderpattern.components.Transmission;
 import builderpattern.components.TripComputer;
 
+// The builder interface specifies methods for creating the
+// different parts of the product objects.
 public interface Builder {
     void setCarType(CarType type);
     void setSeats(int seats);

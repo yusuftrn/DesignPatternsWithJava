@@ -5,10 +5,8 @@ import builderpattern.components.GPSNavigator;
 import builderpattern.components.Transmission;
 import builderpattern.components.TripComputer;
 
-/**
- * Car manual is another product. Note that it does not have the same ancestor
- * as a Car. They are not related.
- */
+// Each car should have a user manual that corresponds to
+// the car's configuration and describes all its features.
 public class Manual {
     private final CarType carType;
     private final int seats;

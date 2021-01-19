@@ -27,5 +27,10 @@ public class Run {
         director.constructSportsCar(manualBuilder);
         Manual carManual = manualBuilder.getResult();
         System.out.println("\nCar manual built:\n" + carManual.print());
+
+        CarManualBuilder manualBuilder1 = new CarManualBuilder();
+        director.constructSUV(manualBuilder1);
+        Manual carManual1 = manualBuilder1.getResult();
+        System.out.println("\nCar manual built:\n" + carManual1.print());
     }
 }

@@ -7,6 +7,10 @@ import builderpattern.components.GPSNavigator;
 import builderpattern.components.Transmission;
 import builderpattern.components.TripComputer;
 
+// The concrete builder classes follow the builder interface and
+// provide specific implementations of the building steps. Your
+// program may have several variations of builders, each
+// implemented differently.
 public class CarBuilder implements Builder{
     private CarType type;
     private int seats;
