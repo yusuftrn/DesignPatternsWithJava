@@ -1,6 +1,6 @@
-package structural.bridge.remotes;
+package structural.bridge.bridgePattern1.remotes;
 
-import structural.bridge.devices.Device;
+import structural.bridge.bridgePattern1.devices.Device;
 
 public class AdvancedRemote extends BasicRemote{
 

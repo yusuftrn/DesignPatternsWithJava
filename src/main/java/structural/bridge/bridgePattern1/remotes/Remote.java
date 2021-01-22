@@ -1,4 +1,4 @@
-package structural.bridge.remotes;
+package structural.bridge.bridgePattern1.remotes;
 
 public interface Remote {
 

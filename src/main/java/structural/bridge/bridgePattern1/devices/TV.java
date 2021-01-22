@@ -1,4 +1,4 @@
-package structural.bridge.devices;
+package structural.bridge.bridgePattern1.devices;
 
 public class TV implements Device{
     private final String  deviceType = "TV";

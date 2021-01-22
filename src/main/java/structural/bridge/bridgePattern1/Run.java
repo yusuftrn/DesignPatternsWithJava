@@ -1,10 +1,10 @@
-package structural.bridge;
+package structural.bridge.bridgePattern1;
 
-import structural.bridge.devices.Device;
-import structural.bridge.devices.Radio;
-import structural.bridge.devices.TV;
-import structural.bridge.remotes.AdvancedRemote;
-import structural.bridge.remotes.BasicRemote;
+import structural.bridge.bridgePattern1.devices.Device;
+import structural.bridge.bridgePattern1.devices.Radio;
+import structural.bridge.bridgePattern1.devices.TV;
+import structural.bridge.bridgePattern1.remotes.AdvancedRemote;
+import structural.bridge.bridgePattern1.remotes.BasicRemote;
 
 public class Run {
 

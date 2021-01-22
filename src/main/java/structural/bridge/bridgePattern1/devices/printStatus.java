@@ -1,4 +1,4 @@
-package structural.bridge.devices;
+package structural.bridge.bridgePattern1.devices;
 
 public class printStatus {
     static void printOut(String deviceType, boolean onOffStatus, int volumePercent, int channel) {
