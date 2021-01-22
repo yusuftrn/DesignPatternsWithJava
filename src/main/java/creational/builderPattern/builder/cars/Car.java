@@ -1,9 +1,9 @@
-package creational.builderPattern.builderpattern.cars;
+package creational.builderPattern.builder.cars;
 
-import creational.builderPattern.builderpattern.components.Engine;
-import creational.builderPattern.builderpattern.components.GPSNavigator;
-import creational.builderPattern.builderpattern.components.Transmission;
-import creational.builderPattern.builderpattern.components.TripComputer;
+import creational.builderPattern.builder.components.Engine;
+import creational.builderPattern.builder.components.GPSNavigator;
+import creational.builderPattern.builder.components.Transmission;
+import creational.builderPattern.builder.components.TripComputer;
 
 // Using the Builder pattern makes sense only when your products
 // are quite complex and require extensive configuration. The

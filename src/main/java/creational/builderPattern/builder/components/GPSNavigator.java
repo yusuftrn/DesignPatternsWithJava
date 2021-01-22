@@ -1,4 +1,4 @@
-package creational.builderPattern.builderpattern.components;
+package creational.builderPattern.builder.components;
 
 public class GPSNavigator {
     private String route;

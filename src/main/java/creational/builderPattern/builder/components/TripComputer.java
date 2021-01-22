@@ -1,6 +1,6 @@
-package creational.builderPattern.builderpattern.components;
+package creational.builderPattern.builder.components;
 
-import creational.builderPattern.builderpattern.cars.Car;
+import creational.builderPattern.builder.cars.Car;
 
 public class TripComputer {
     private Car car;

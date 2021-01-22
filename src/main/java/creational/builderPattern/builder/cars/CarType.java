@@ -1,4 +1,4 @@
-package creational.builderPattern.builderpattern.cars;
+package creational.builderPattern.builder.cars;
 
 public enum CarType {
     CITY_CAR, SPORTS_CAR, SUV

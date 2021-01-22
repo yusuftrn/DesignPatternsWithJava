@@ -1,11 +1,11 @@
-package creational.builderPattern.builderpattern.builders;
+package creational.builderPattern.builder.builders;
 
-import creational.builderPattern.builderpattern.cars.Car;
-import creational.builderPattern.builderpattern.cars.CarType;
-import creational.builderPattern.builderpattern.components.Engine;
-import creational.builderPattern.builderpattern.components.GPSNavigator;
-import creational.builderPattern.builderpattern.components.Transmission;
-import creational.builderPattern.builderpattern.components.TripComputer;
+import creational.builderPattern.builder.cars.Car;
+import creational.builderPattern.builder.cars.CarType;
+import creational.builderPattern.builder.components.Engine;
+import creational.builderPattern.builder.components.GPSNavigator;
+import creational.builderPattern.builder.components.Transmission;
+import creational.builderPattern.builder.components.TripComputer;
 
 // The concrete builder classes follow the builder interface and
 // provide specific implementations of the building steps. Your

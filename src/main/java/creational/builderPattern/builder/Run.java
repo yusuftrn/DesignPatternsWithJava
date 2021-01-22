@@ -1,10 +1,10 @@
-package creational.builderPattern.builderpattern;
+package creational.builderPattern.builder;
 
-import creational.builderPattern.builderpattern.builders.CarBuilder;
-import creational.builderPattern.builderpattern.builders.CarManualBuilder;
-import creational.builderPattern.builderpattern.cars.Car;
-import creational.builderPattern.builderpattern.cars.Manual;
-import creational.builderPattern.builderpattern.director.Director;
+import creational.builderPattern.builder.builders.CarBuilder;
+import creational.builderPattern.builder.builders.CarManualBuilder;
+import creational.builderPattern.builder.cars.Car;
+import creational.builderPattern.builder.cars.Manual;
+import creational.builderPattern.builder.director.Director;
 
 public class Run {
 

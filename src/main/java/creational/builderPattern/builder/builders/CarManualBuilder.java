@@ -1,11 +1,11 @@
-package creational.builderPattern.builderpattern.builders;
+package creational.builderPattern.builder.builders;
 
-import creational.builderPattern.builderpattern.cars.CarType;
-import creational.builderPattern.builderpattern.cars.Manual;
-import creational.builderPattern.builderpattern.components.Engine;
-import creational.builderPattern.builderpattern.components.GPSNavigator;
-import creational.builderPattern.builderpattern.components.Transmission;
-import creational.builderPattern.builderpattern.components.TripComputer;
+import creational.builderPattern.builder.cars.CarType;
+import creational.builderPattern.builder.cars.Manual;
+import creational.builderPattern.builder.components.Engine;
+import creational.builderPattern.builder.components.GPSNavigator;
+import creational.builderPattern.builder.components.Transmission;
+import creational.builderPattern.builder.components.TripComputer;
 
 /**
  * Unlike other creational patterns, Builder can construct unrelated products,

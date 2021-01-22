@@ -1,11 +1,11 @@
-package creational.builderPattern.builderpattern.director;
+package creational.builderPattern.builder.director;
 
-import creational.builderPattern.builderpattern.builders.Builder;
-import creational.builderPattern.builderpattern.cars.CarType;
-import creational.builderPattern.builderpattern.components.Engine;
-import creational.builderPattern.builderpattern.components.GPSNavigator;
-import creational.builderPattern.builderpattern.components.Transmission;
-import creational.builderPattern.builderpattern.components.TripComputer;
+import creational.builderPattern.builder.builders.Builder;
+import creational.builderPattern.builder.cars.CarType;
+import creational.builderPattern.builder.components.Engine;
+import creational.builderPattern.builder.components.GPSNavigator;
+import creational.builderPattern.builder.components.Transmission;
+import creational.builderPattern.builder.components.TripComputer;
 
 public class Director {
 

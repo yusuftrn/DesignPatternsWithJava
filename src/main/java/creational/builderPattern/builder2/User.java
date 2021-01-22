@@ -1,4 +1,4 @@
-package creational.builderPattern.builderpattern2;
+package creational.builderPattern.builder2;
 
 public class User {
     //All final attributes
