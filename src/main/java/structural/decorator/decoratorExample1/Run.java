@@ -18,3 +18,16 @@ public class Run {
         System.out.println(encoded.readData());
     }
 }
+/*
+- Input ----------------
+Name,Salary
+John Smith,100000
+Steven Jobs,912000
+- Encoded --------------
+Zkc4e1Q5eU8yUm1Qe0ZsdHJ2VXp6dDBKVnhrUHtUe0sxRUYxQkJIdjVLTVZ0dVI5Q2IwOXFISmVUMU5rcENCQmdxRlByaD4+
+- Decoded --------------
+Name,Salary
+John Smith,100000
+Steven Jobs,912000
+
+ */
