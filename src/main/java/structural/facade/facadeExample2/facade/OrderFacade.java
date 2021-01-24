@@ -27,8 +27,6 @@ public class OrderFacade {
         deliver = new Cargo();
         deliver.setDeliverName(deliverName);
 
-
-
         int orderID = orderProcess.addOrder(new Date(System.currentTimeMillis()), client, deliver);
 
         OrderDetails orderDetails = new OrderDetails();
