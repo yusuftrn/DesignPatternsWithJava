@@ -27,10 +27,15 @@ public class OrderFacade {
         deliver = new Cargo();
         deliver.setDeliverName(deliverName);
 
+
+
         int orderID = orderProcess.addOrder(new Date(System.currentTimeMillis()), client, deliver);
 
         OrderDetails orderDetails = new OrderDetails();
         orderDetails.addOrderDetails(orderID, cartList);
+        for(Cart c : cartList){
+            stockProcess.updateStock(c.getProductId(), c.getProductCount());
+        }
         System.out.println("Order completed.");
 
     }

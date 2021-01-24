@@ -20,7 +20,7 @@ public class Run {
     }
 }
 /*
-Order Date: Sun Jan 24 23:14:48 TRT 2021
+Order Date: Sun Jan 24 23:25:37 TRT 2021
 Client Name: Yusuf Turan
 Cargo Deliver: Aras Kargo
 Items from cart OrderID: 1
@@ -28,6 +28,8 @@ Items from cart OrderID: 1
 Apple TV item sold 5 pieces total cost: 2500.0$
 Macbook Pro item sold 2 pieces total cost: 4800.0$
 iPhone12 item sold 4 pieces total cost: 3960.0$
+Product ID: 1 Count:5 items sold.
+Product ID: 2 Count:2 items sold.
+Product ID: 3 Count:4 items sold.
 Order completed.
-
  */
