@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class PieceFactory {
 
-    private static final Map<String, Piece> pieceMap = new HashMap();
+    private static final Map<String, Piece> pieceMap = new HashMap<>();
 
     public static Piece getPiece(String pieceType){
         Piece piece = null;
