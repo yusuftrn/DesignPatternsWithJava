@@ -19,6 +19,7 @@ public class OrderFacade {
     private OrderDetails orderDetails = new OrderDetails();
     private OrderProcess orderProcess = new OrderProcess();
 
+
     public void Order(String clientName, String deliverName, List<Cart> cartList){
 
         client = new Client();
@@ -29,7 +30,6 @@ public class OrderFacade {
 
         int orderID = orderProcess.addOrder(new Date(System.currentTimeMillis()), client, deliver);
 
-        OrderDetails orderDetails = new OrderDetails();
         orderDetails.addOrderDetails(orderID, cartList);
         for(Cart c : cartList){
             stockProcess.updateStock(c.getProductId(), c.getProductCount());
