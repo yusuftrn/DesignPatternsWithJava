@@ -12,3 +12,8 @@ public class Run {
 
     }
 }
+/*OUTPUT:
+Stock: Iphone, 200 bought!
+Stock: Iphone, 200 sold!
+Stock: Iphone, 200 sold!
+ */
