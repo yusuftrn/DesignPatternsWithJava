@@ -13,14 +13,18 @@ public class Editor {
     private CommandHistory history = new CommandHistory();
 
     public void init() {
-        JFrame frame = new JFrame("Text editor (type & use buttons, Luke!)");
+        JFrame frame = new JFrame("Text editor");
 
         JPanel content = new JPanel();
         frame.setContentPane(content);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         content.setLayout(new BoxLayout(content, BoxLayout.Y_AXIS));
+        Font font = new Font("Segoe Script", Font.BOLD, 13);
+
         textField = new JTextArea();
         textField.setLineWrap(true);
+        textField.setBackground(Color.DARK_GRAY);
+        textField.setFont(font);
         content.add(textField);
         JPanel buttons = new JPanel(new FlowLayout(FlowLayout.CENTER));
         JButton ctrlC = new JButton("Ctrl+C");
